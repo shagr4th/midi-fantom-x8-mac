@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 63;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -272,7 +272,7 @@
 				ORGANIZATIONNAME = "Yves Salathe";
 			};
 			buildConfigurationList = A3F54ACC168D45D700349230 /* Build configuration list for PBXProject "GenericUSBMidi" */;
-			compatibilityVersion = "Xcode 3.2";
+			compatibilityVersion = "Xcode 15.3";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -387,7 +387,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
 			};
@@ -411,7 +411,8 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
+				ONLY_ACTIVE_ARCH = NO;
 				SDKROOT = macosx;
 			};
 			name = Release;
@@ -420,76 +421,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(LOCAL_LIBRARY_DIR)/Application Support/iWork '09/Frameworks\"",
-					"\"$(LOCAL_LIBRARY_DIR)/Printers/Canon/BJPrinter/Frameworks\"",
-					"\"$(LOCAL_LIBRARY_DIR)/Printers/Canon/IJScanner/Frameworks\"",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				INFOPLIST_FILE = "GenericUSBMidi/GenericUSBMidi-Info.plist";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(LOCAL_LIBRARY_DIR)/Java/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Libraries\"",
-					"\"$(LOCAL_LIBRARY_DIR)/Java/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Libraries\"",
-					"\"$(LOCAL_LIBRARY_DIR)/Java/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/MacOS\"",
-					"\"$(LOCAL_LIBRARY_DIR)/Java/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Libraries\"",
-					"\"$(LOCAL_LIBRARY_DIR)/Java/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/MacOS\"",
-					"\"$(LOCAL_LIBRARY_DIR)/Java/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Libraries\"",
-					"\"$(LOCAL_LIBRARY_DIR)/Java/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/MacOS\"",
-					"\"$(LOCAL_LIBRARY_DIR)/Java/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Libraries\"",
-					"\"$(LOCAL_LIBRARY_DIR)/Java/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/MacOS\"",
-					"\"$(LOCAL_LIBRARY_DIR)/Java/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Libraries\"",
-					"\"$(LOCAL_LIBRARY_DIR)/Java/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/MacOS\"",
-					"\"$(LOCAL_LIBRARY_DIR)/Java/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Libraries\"",
-					"\"$(LOCAL_LIBRARY_DIR)/Java/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/MacOS\"",
-					"\"$(LOCAL_LIBRARY_DIR)/Java/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Libraries\"",
-					"\"$(LOCAL_LIBRARY_DIR)/Java/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/MacOS\"",
-					"\"$(LOCAL_LIBRARY_DIR)/Java/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Libraries\"",
-					"\"$(LOCAL_LIBRARY_DIR)/Java/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/MacOS\"",
-					"\"$(LOCAL_LIBRARY_DIR)/Java/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Libraries\"",
-					"\"$(LOCAL_LIBRARY_DIR)/Java/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/MacOS\"",
-					"\"$(LOCAL_LIBRARY_DIR)/Java/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Libraries\"",
-					"\"$(LOCAL_LIBRARY_DIR)/Java/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/MacOS\"",
-					"\"$(LOCAL_LIBRARY_DIR)/Java/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Libraries\"",
-					"\"$(LOCAL_LIBRARY_DIR)/Java/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/MacOS\"",
-					"\"$(LOCAL_LIBRARY_DIR)/Java/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Libraries\"",
-					"\"$(LOCAL_LIBRARY_DIR)/Java/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/MacOS\"",
-					"\"$(LOCAL_LIBRARY_DIR)/Java/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Libraries\"",
-					"\"$(LOCAL_LIBRARY_DIR)/Java/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/MacOS\"",
-					"\"$(LOCAL_LIBRARY_DIR)/Java/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Libraries\"",
-					"\"$(LOCAL_LIBRARY_DIR)/Java/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/MacOS\"",
-					"\"$(LOCAL_LIBRARY_DIR)/Java/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Libraries\"",
-					"\"$(LOCAL_LIBRARY_DIR)/Java/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/MacOS\"",
-					"\"$(LOCAL_LIBRARY_DIR)/Java/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Libraries\"",
-					"\"$(LOCAL_LIBRARY_DIR)/Java/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/MacOS\"",
-					"\"$(LOCAL_LIBRARY_DIR)/Java/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Libraries\"",
-					"\"$(LOCAL_LIBRARY_DIR)/Java/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/MacOS\"",
-					"\"$(LOCAL_LIBRARY_DIR)/Java/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Libraries\"",
-					"\"$(LOCAL_LIBRARY_DIR)/Java/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/MacOS\"",
-					"\"$(LOCAL_LIBRARY_DIR)/Java/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Libraries\"",
-					"\"$(LOCAL_LIBRARY_DIR)/Java/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/MacOS\"",
-					"\"$(LOCAL_LIBRARY_DIR)/Java/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Libraries\"",
-					"\"$(LOCAL_LIBRARY_DIR)/Java/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/MacOS\"",
-					"\"$(LOCAL_LIBRARY_DIR)/Java/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Libraries\"",
-					"\"$(LOCAL_LIBRARY_DIR)/Java/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/MacOS\"",
-					"\"$(LOCAL_LIBRARY_DIR)/Java/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Libraries\"",
-					"\"$(LOCAL_LIBRARY_DIR)/Java/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/MacOS\"",
-					"\"$(LOCAL_LIBRARY_DIR)/Java/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Libraries\"",
-					"\"$(LOCAL_LIBRARY_DIR)/Java/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/MacOS\"",
-					"\"$(LOCAL_LIBRARY_DIR)/Java/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Libraries\"",
-					"\"$(LOCAL_LIBRARY_DIR)/Java/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/MacOS\"",
-					"\"$(LOCAL_LIBRARY_DIR)/Java/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Libraries\"",
-					"\"$(LOCAL_LIBRARY_DIR)/Java/Home/bundle/Home/bundle/Home/bundle/Home/bundle/MacOS\"",
-					"\"$(LOCAL_LIBRARY_DIR)/Java/Home/bundle/Home/bundle/Home/bundle/Libraries\"",
-					"\"$(LOCAL_LIBRARY_DIR)/Java/Home/bundle/Home/bundle/Home/bundle/MacOS\"",
-					"\"$(LOCAL_LIBRARY_DIR)/Java/Home/bundle/Home/bundle/Libraries\"",
-					"\"$(LOCAL_LIBRARY_DIR)/Java/Home/bundle/Home/bundle/MacOS\"",
-					"\"$(LOCAL_LIBRARY_DIR)/Java/Home/bundle/Libraries\"",
-					"\"$(LOCAL_LIBRARY_DIR)/Java/Home/bundle/MacOS\"",
-					"\"$(LOCAL_LIBRARY_DIR)/Perl/5.10/darwin-thread-multi-2level/lib\"",
-					"\"$(LOCAL_LIBRARY_DIR)/Perl/5.12/darwin-thread-multi-2level/lib\"",
-				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = plugin;
 			};
@@ -499,76 +435,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(LOCAL_LIBRARY_DIR)/Application Support/iWork '09/Frameworks\"",
-					"\"$(LOCAL_LIBRARY_DIR)/Printers/Canon/BJPrinter/Frameworks\"",
-					"\"$(LOCAL_LIBRARY_DIR)/Printers/Canon/IJScanner/Frameworks\"",
-				);
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				INFOPLIST_FILE = "GenericUSBMidi/GenericUSBMidi-Info.plist";
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"\"$(LOCAL_LIBRARY_DIR)/Java/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Libraries\"",
-					"\"$(LOCAL_LIBRARY_DIR)/Java/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Libraries\"",
-					"\"$(LOCAL_LIBRARY_DIR)/Java/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/MacOS\"",
-					"\"$(LOCAL_LIBRARY_DIR)/Java/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Libraries\"",
-					"\"$(LOCAL_LIBRARY_DIR)/Java/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/MacOS\"",
-					"\"$(LOCAL_LIBRARY_DIR)/Java/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Libraries\"",
-					"\"$(LOCAL_LIBRARY_DIR)/Java/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/MacOS\"",
-					"\"$(LOCAL_LIBRARY_DIR)/Java/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Libraries\"",
-					"\"$(LOCAL_LIBRARY_DIR)/Java/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/MacOS\"",
-					"\"$(LOCAL_LIBRARY_DIR)/Java/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Libraries\"",
-					"\"$(LOCAL_LIBRARY_DIR)/Java/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/MacOS\"",
-					"\"$(LOCAL_LIBRARY_DIR)/Java/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Libraries\"",
-					"\"$(LOCAL_LIBRARY_DIR)/Java/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/MacOS\"",
-					"\"$(LOCAL_LIBRARY_DIR)/Java/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Libraries\"",
-					"\"$(LOCAL_LIBRARY_DIR)/Java/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/MacOS\"",
-					"\"$(LOCAL_LIBRARY_DIR)/Java/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Libraries\"",
-					"\"$(LOCAL_LIBRARY_DIR)/Java/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/MacOS\"",
-					"\"$(LOCAL_LIBRARY_DIR)/Java/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Libraries\"",
-					"\"$(LOCAL_LIBRARY_DIR)/Java/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/MacOS\"",
-					"\"$(LOCAL_LIBRARY_DIR)/Java/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Libraries\"",
-					"\"$(LOCAL_LIBRARY_DIR)/Java/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/MacOS\"",
-					"\"$(LOCAL_LIBRARY_DIR)/Java/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Libraries\"",
-					"\"$(LOCAL_LIBRARY_DIR)/Java/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/MacOS\"",
-					"\"$(LOCAL_LIBRARY_DIR)/Java/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Libraries\"",
-					"\"$(LOCAL_LIBRARY_DIR)/Java/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/MacOS\"",
-					"\"$(LOCAL_LIBRARY_DIR)/Java/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Libraries\"",
-					"\"$(LOCAL_LIBRARY_DIR)/Java/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/MacOS\"",
-					"\"$(LOCAL_LIBRARY_DIR)/Java/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Libraries\"",
-					"\"$(LOCAL_LIBRARY_DIR)/Java/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/MacOS\"",
-					"\"$(LOCAL_LIBRARY_DIR)/Java/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Libraries\"",
-					"\"$(LOCAL_LIBRARY_DIR)/Java/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/MacOS\"",
-					"\"$(LOCAL_LIBRARY_DIR)/Java/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Libraries\"",
-					"\"$(LOCAL_LIBRARY_DIR)/Java/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/MacOS\"",
-					"\"$(LOCAL_LIBRARY_DIR)/Java/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Libraries\"",
-					"\"$(LOCAL_LIBRARY_DIR)/Java/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/MacOS\"",
-					"\"$(LOCAL_LIBRARY_DIR)/Java/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Libraries\"",
-					"\"$(LOCAL_LIBRARY_DIR)/Java/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/MacOS\"",
-					"\"$(LOCAL_LIBRARY_DIR)/Java/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Libraries\"",
-					"\"$(LOCAL_LIBRARY_DIR)/Java/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/MacOS\"",
-					"\"$(LOCAL_LIBRARY_DIR)/Java/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Libraries\"",
-					"\"$(LOCAL_LIBRARY_DIR)/Java/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/MacOS\"",
-					"\"$(LOCAL_LIBRARY_DIR)/Java/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Libraries\"",
-					"\"$(LOCAL_LIBRARY_DIR)/Java/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/MacOS\"",
-					"\"$(LOCAL_LIBRARY_DIR)/Java/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Libraries\"",
-					"\"$(LOCAL_LIBRARY_DIR)/Java/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/MacOS\"",
-					"\"$(LOCAL_LIBRARY_DIR)/Java/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Libraries\"",
-					"\"$(LOCAL_LIBRARY_DIR)/Java/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/MacOS\"",
-					"\"$(LOCAL_LIBRARY_DIR)/Java/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Libraries\"",
-					"\"$(LOCAL_LIBRARY_DIR)/Java/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Home/bundle/MacOS\"",
-					"\"$(LOCAL_LIBRARY_DIR)/Java/Home/bundle/Home/bundle/Home/bundle/Home/bundle/Libraries\"",
-					"\"$(LOCAL_LIBRARY_DIR)/Java/Home/bundle/Home/bundle/Home/bundle/Home/bundle/MacOS\"",
-					"\"$(LOCAL_LIBRARY_DIR)/Java/Home/bundle/Home/bundle/Home/bundle/Libraries\"",
-					"\"$(LOCAL_LIBRARY_DIR)/Java/Home/bundle/Home/bundle/Home/bundle/MacOS\"",
-					"\"$(LOCAL_LIBRARY_DIR)/Java/Home/bundle/Home/bundle/Libraries\"",
-					"\"$(LOCAL_LIBRARY_DIR)/Java/Home/bundle/Home/bundle/MacOS\"",
-					"\"$(LOCAL_LIBRARY_DIR)/Java/Home/bundle/Libraries\"",
-					"\"$(LOCAL_LIBRARY_DIR)/Java/Home/bundle/MacOS\"",
-					"\"$(LOCAL_LIBRARY_DIR)/Perl/5.10/darwin-thread-multi-2level/lib\"",
-					"\"$(LOCAL_LIBRARY_DIR)/Perl/5.12/darwin-thread-multi-2level/lib\"",
-				);
+				LIBRARY_SEARCH_PATHS = "$(inherited)";
+				MACOSX_DEPLOYMENT_TARGET = 11.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = plugin;
 			};
