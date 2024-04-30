@@ -6,3 +6,5 @@ xcuserdata/
 *.xccheckout
 
 ShowInFinder.png
+
+.DS_Store
